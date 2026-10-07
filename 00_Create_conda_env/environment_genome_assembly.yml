@@ -1,0 +1,22 @@
+name: genome_assembly
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.10
+  - seqkit
+  - nanoplot
+  - filtlong
+  - jellyfish
+  - hifiasm
+  - quast
+  - busco>=6
+  - meryl
+  - ragtag
+  - minimap2
+  - samtools
+  - bcftools
+  - bedtools
+  - sniffles>=2.7
+  - pigz
+  - r-base
+  - r-ggplot2
+  - r-scales
