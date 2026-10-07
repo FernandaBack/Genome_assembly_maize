@@ -4,9 +4,6 @@ Pipeline for **de novo assembly of maize (*Zea mays*) landrace genomes** from **
 with **reference-guided scaffolding** and **SNP / structural-variant (SV) calling** against B73.
 
 Developed during the MSc project of **Fernanda Back de Souza** (Unicamp), applied to the Brazilian landraces
-*Alho Avati Pichingá* and *Entrelaçado*, and later to CML lines.
-
-Adapted from [almeidafran/Assembly_genome_plant](https://github.com/almeidafran/Assembly_genome_plant).
 
 ---
 
