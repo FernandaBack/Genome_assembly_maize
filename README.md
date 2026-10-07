@@ -61,6 +61,19 @@ HiFi reads ─► QC / k-mers ─► hifiasm ─► QUAST·BUSCO·Merqury ─►
 
 ---
 
+## 🚀 Getting started
+
+```bash
+git clone https://github.com/FernandaBack/Genome_assembly_maize.git
+cd Genome_assembly_maize
+mamba env create -f 00_Create_conda_env/environment_genome_assembly.yml
+mamba env create -f 00_Create_conda_env/environment_syri.yml
+```
+
+Edit the input variables at the top of each script (sample name, reads, reference, threads) before running.
+
+---
+
 ## ⚙️ Requirements
 
 - **OS:** Linux · **Package manager:** Conda/Mamba · Singularity (DeepVariant, GLnexus)
